@@ -1,0 +1,26 @@
+{
+  "test_size": 0.2,
+  "random_state": 42,
+  "cv_folds": 5,
+  "models": [
+    {
+      "name": "random_forest",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 10
+      }
+    },
+    {
+      "name": "gradient_boosting",
+      "params": {
+        "n_estimators": 100,
+        "learning_rate": 0.1
+      }
+    }
+  ],
+  "features": [
+    "feature_1",
+    "feature_2",
+    "feature_3"
+  ]
+}
